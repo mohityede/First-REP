@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <script 
+    src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+    </script>
+  
+    <meta charset="utf-8">
+    <title>
+      First mini_project
+    </title>
+    <link rel="stylesheet" href="./CSS/style.css">
+     <script src="./javascript/java.js"></script> 
+  </head>
+  
+  
+  <body>
+    <h1>IMAGE FILTER</h1>
+    <h3>This is the simple Web page for filter your image. In this page you can easily apply any available filter to your Image by uploading it. After apply filter you also can reset it as original Image was.</h3>
+    Uploaded Image :
+    <p></p>
+    <canvas id="can"></canvas>
+    Load Image :
+    
+    <input type="file" multiple="false" accept="image/*" id="finp" onchange="upload()" >
+    <p>
+    Filters available :
+    <input type="button" value="GrayScale" onclick="doGray()">
+    <input type="button" value="Red" onclick="doRed()">
+    <input type="button" value="Green" onclick="doGreen()">
+    <input type="button" value="Blue"  onclick="doBlue()">
+    <input type="button" value="Rainbow" onclick="doRain()">
+    </p>
+    <p>
+      
+      Reset Image :
+      <input type="button" value="Reset" class="reset" onclick="reset()">
+      <p> THANK YOU! </p>
+    
+  </body>
+</html>
