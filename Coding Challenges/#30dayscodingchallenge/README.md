@@ -2,3 +2,4 @@
 #### [Day1](https://www.hackerearth.com/practice/basic-programming/input-output/basics-of-input-output/practice-problems/algorithm/mojtaba-prepares-contest-29b2a044/description/)
 #### [Day2](https://www.hackerearth.com/practice/codemonk/?utm_source=new_user_signup&utm_medium=email&utm_campaign=codemonk) (incomplete)
 #### [Day3](https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays/1/?track=dsa-workshop-1-mathematics&batchId=308#) (incomplete)
+#### [Day4](https://practice.geeksforgeeks.org/problems/rotate-array-by-n-elements/0#) (Time Limit Exceeded)
