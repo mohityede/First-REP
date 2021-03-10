@@ -1,4 +1,4 @@
-# First-REP
+#FIRST-REP
 #This is just the simple calculator program for two integer basic operation.
 
 print('''Note:-
@@ -13,19 +13,19 @@ if inp=='+':
     b=int(input('Enter second digit '))
     ot=a+b
     print('a',inp,'n = ',ot)
-    
+
 elif inp=='-':
     a=int(input('Enter first digit '))
     b=int(input('Enter second digit '))
     ot=a-b
     print('a',inp,'n = ',ot)
-    
+
 elif inp=='*':
     a=int(input('Enter first digit '))
     b=int(input('Enter second digit '))
     ot=a*b
     print('a',inp,'n = ',ot)
-    
+
 elif inp=='/':
     a=int(input('Enter first digit '))
     b=int(input('Enter second digit '))
@@ -34,6 +34,6 @@ elif inp=='/':
     else:
         ot=a/b
         print('a',inp,'n = ',ot)
-    
+
 else:
-    print('Please enter valid operation.')
+    print('Your oparator is not valid.')
