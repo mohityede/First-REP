@@ -1,5 +1,5 @@
 ### 1. Image filter mini web based front end project
-<<<<<<< HEAD
+
 ### 2. Music player FrontEnd practice project
 =======
 
