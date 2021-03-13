@@ -1,0 +1,43 @@
+.challenge-1 {
+    color: rgb(14, 14, 78);
+    border: 5px solid black;
+    padding: 20px;
+    margin: 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+.head-1 {
+    border: 2px solid green;
+    text-align: center;
+}
+.contant-1 {
+    height: 80px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.g-but {
+    background-color: chartreuse;
+}
+.r-but {
+    background-color: red;
+}
+.but{
+    font-size: larger;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    margin: 10px;
+}
+.but:hover{
+    box-shadow: 5px 5px yellow;
+    background-color: wheat;
+}
+.result-1 {
+    height: 80px;
+}
+
+
