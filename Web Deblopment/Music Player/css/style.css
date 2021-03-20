@@ -11,21 +11,21 @@ nav{
     display: block;
 }
 main{
-    width: 80vw;
+    width: 75vw;
     height: 92vh;
     position: relative;
     top: 8vh;
     display: inline-block;
-    background-color: blue;
+    background-color: rgb(42, 42, 42);
 
 }
 aside{
-    width: 20vw;
+    width: 25vw;
     height: 92vh;
     position: absolute;
     top: 8vh;
     display: inline-block;
-    background-color: brown;
+    background-color: rgb(42, 42, 42);
 }
 
 /* univesal */
@@ -39,7 +39,7 @@ aside{
     height: 100%;
     display: flex;
     align-items: center;
-    background-color: chartreuse;
+    background-color: rgb(226, 224, 224);
 }
 nav #contant-nav img{
     margin-left: 10px;
@@ -75,7 +75,6 @@ nav .user {
     margin-left: 10%;
 }
 nav .user img{
-
     border: 1px solid black;
     border-radius: 20px;
 }
@@ -84,11 +83,13 @@ nav .user img{
     margin-left: 20%;
     border: 2px solid black;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
 }
 .searchbar form{
     margin: 0px;
+    vertical-align: middle;
+    size: 50px;
 }
 .searchbar input{
     border: none;
@@ -98,5 +99,133 @@ nav .user img{
     background: transparent;
     border: none;
     outline: none;
+    vertical-align: middle;
 }
 
+/* Main*/
+#main-div {
+    margin: 20px 70px;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.tranding .trand-img{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.cat-had{
+    color: rgb(241, 241, 245);
+    padding-left: 40px;
+    font-family: sans-serif;
+}
+.tranding {
+
+    padding: 20px;
+}
+.tranding img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+}
+
+.latest-rel {
+    display: flex;
+    flex-direction: column;
+}
+.blocks {
+    display: flex;
+    flex-direction: unset;
+    padding: 20px;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.plyer-block {
+    background-color: rgba(63, 63, 65, 0.739);
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.plyer-block .wal img{
+    width: 50px;
+    margin: 10px;
+}
+
+.artist-img img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid darkblue;
+    border-radius: 50%;
+    margin: 10px;
+}
+.artist-img {
+    display: flex;
+    overflow: scroll;
+    padding: 20px;
+}
+.music-catgr {
+
+}
+
+.music-catogary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.music-catogary img{
+    width: 200px;
+    height: 170px;
+    padding: 10px;
+}
+
+
+.music-pack {
+    padding: 10px;
+}
+.m-1-contant{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.music-pack img{
+    width: 120px;
+    height: 120px;
+}
+
+
+/*Queue*/
+.queue-head {
+    background-color: rgb(61, 61, 66);
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.queue-head h1,button {
+    align-content: center;
+    margin: 10px;
+}
+.queue-contant {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+.q-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(61, 61, 66);
+}
+.q-list div {
+    margin-left: 10px;
+}
+.q-list img {
+    padding: 5px;
+    width: 60px;
+    width: 60px;
+}
