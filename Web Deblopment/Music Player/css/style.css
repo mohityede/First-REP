@@ -103,12 +103,14 @@ nav .user img{
 }
 
 /* Main*/
+
 #main-div {
     margin: 20px 70px;
     height: 85vh;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    color: white;
 }
 .tranding .trand-img{
     display: flex;
@@ -157,17 +159,15 @@ nav .user img{
 .artist-img img{
     width: 200px;
     height: 200px;
-    border: 2px solid darkblue;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 50%;
     margin: 10px;
 }
 .artist-img {
     display: flex;
     overflow: scroll;
+    overflow-y: hidden;
     padding: 20px;
-}
-.music-catgr {
-
 }
 
 .music-catogary {
@@ -204,6 +204,7 @@ nav .user img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    color: white;
 }
 .queue-head h1,button {
     align-content: center;
@@ -214,6 +215,7 @@ nav .user img{
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
+    color: white;
 }
 .q-list {
     display: flex;
